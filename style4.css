@@ -1,0 +1,233 @@
+*{
+	margin:0 ;
+	min-width: : 1400px;
+  height: 100%; 
+  
+
+  padding: 0;
+   background: transparent;
+   position: relative;
+  
+  
+  
+}
+body{
+    
+    position: relative;
+    background-color: grey;
+    
+}	
+
+
+
+.header{
+	position: relative; 
+	height: 75px;
+	display: flex;
+	justify-content: space-between;
+	vertical-align: middle;
+	padding: 27px 100px 0px 100px;
+	font-size: 22px;
+	text-decoration: none;
+	color:white;
+  margin-top: -20px;
+  font-family: 'Noto Serif', serif;
+
+   
+}
+#text1{
+	text-shadow: 2px 2px white;
+
+
+}
+#text2{
+	text-shadow: 2px 2px white;
+
+
+}
+
+#text4{
+	text-shadow: 2px 2px white;
+}
+#text5{
+	text-shadow: 2px 2px white;
+}
+#text6{
+  text-shadow: 2px 2px white;
+}
+
+
+#logo{
+	width: 130px;
+	height: 80px;
+	border-radius: 55%;
+	margin-top: -23px;
+	border:6px solid #708090;
+}
+.section{
+	margin-top: -200px;
+}
+}
+.wrap {
+
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+
+	margin-top: -400px;
+  width: 300px;
+  height: 300px;
+  position: relative;
+  perspective: 1000px;
+}
+.front, .back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 1s;
+  backface-visibility: hidden;
+  border-radius: 10px;
+}
+.front {
+  background:url(bai.jpg);
+  background-repeat: no-repeat;
+  background-size:   300px 300px;
+  background-color: black;
+}
+.back {
+  background-color: #BDBDBD;
+  transform: rotateY(180deg);
+}
+#p{
+	display: flex;
+  justify-content: center;
+  align-items: center;
+	font-size: 25px;
+	color: white;
+	text-shadow: 2px 2px black;
+
+}
+.card:hover .front {transform: rotateY(180deg);}
+.card:hover .back {transform: rotateY(360deg);}
+
+
+.card1 {
+     margin-left: 350px;
+	margin-top: -300px;
+  width: 300px;
+  height: 300px;
+  position: relative;
+  perspective: 1000px;
+}
+
+.front1, .back1 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 1s;
+  backface-visibility: hidden;
+  border-radius: 10px;
+}
+.front1 {
+  background:url(marta.jpg);
+  background-repeat: no-repeat;
+  background-size:   300px 300px;
+  background-color: black;
+}
+.back1 {
+  background-color: #BDBDBD;
+  transform: rotateY(180deg);
+}
+.card1:hover .front1 {transform: rotateY(180deg);}
+.card1:hover .back1 {transform: rotateY(360deg);}
+
+.card3 {
+     margin-left: 700px;
+	margin-top: -300px;
+  width: 300px;
+  height: 300px;
+  position: relative;
+  perspective: 1000px;
+}
+
+.front3, .back3 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 1s;
+  backface-visibility: hidden;
+  border-radius: 10px;
+}
+.front3 {
+  background:url(ЯШКА.jpg);
+  background-repeat: no-repeat;
+  background-size:   300px 300px;
+  background-color: black;
+}
+.back3 {
+  background-color: #BDBDBD;
+  transform: rotateY(180deg);
+}
+.card3:hover .front3 {transform: rotateY(180deg);}
+.card3:hover .back3 {transform: rotateY(360deg);}
+
+
+.card4 {
+     margin-left: 1047px;
+	margin-top: -300px;
+  width: 300px;
+  height: 300px;
+  position: relative;
+  perspective: 1000px;
+}
+
+.front4, .back4 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 1s;
+  backface-visibility: hidden;
+  border-radius: 10px;
+}
+.front4 {
+  background:url(http://adoption.petfinder.kz/images/pets/adoptions/132/250/b8e69294662c84e8cf52c2d45d851ed5.jpg);
+  background-repeat: no-repeat;
+  background-size:   300px 300px;
+  background-color: black;
+}
+.back4 {
+  background-color: #BDBDBD;
+  transform: rotateY(180deg);
+}
+.card4:hover .front4 {transform: rotateY(180deg);}
+.card4:hover .back4 {transform: rotateY(360deg);}
+

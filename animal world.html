@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="style.css">
+	<title>Animal world</title>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Texturina:wght@300&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@700&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+
+	   <div class="header">
+	   <div id ="photo2" onmouseover="over(this)" onmouseout="out(this)"><a href="animal world.html"><img id="logo" src="https://static3.bigstockphoto.com/0/2/3/large2/320262565.jpg"></a></div>
+	   <div id = "text1"  onmouseover="over(this)" onmouseout="out(this)"><a id="lp" href="3.html">Подать обьявление </a></div>
+	   <div id = "text2" onmouseover="over(this)" onmouseout="out(this)"><a href="4.html"> Забрать</a> </div>
+	  
+	   <div id = "text4" onmouseover="over(this)" onmouseout="out(this)"><a href="2.html"> Контакты</a> </div>
+	   <div id = "text5" onmouseover="over(this)" onmouseout="out(this)"><a href="1.html"> Карта</a> </div>
+	   <center style="margin-top: px;"><button  style="width: 185px;height: 40px;margin-top:px; font-size: 20px;background-color: gray;color:white;font-family: 'Noto Serif', serif;"   onclick="show('block')" class="regButton">Регистрация</button>
+    
+    </center>
+
+	   </div>
+	   
+
+	   <div class="nur">
+
+       <h1 class="A">PET</h1>
+       <h1 class="B">SHELTER</h1>
+
+       </div>
+      
+        
+	   <div class = "main">
+	   
+	   
+	   <p id ="p1">Точной статистики по количеству бездомных животных в Казахстане нет.
+	    Некоторые фонды пытались вести учёт, но ситуация настолько плачевна, что отследить даже примерное число животных сложно!</p>
+	    <p id="p2"> Забери  себе питомца! Животные приюта <ins>"Animal world "</ins> ждут тебя!</p>
+
+	   
+	   
+	   
+       </div>
+
+
+
+
+
+
+       <div class="stage">
+  <div class="layer"></div>
+  <div class="layer"></div>
+  <div class="layer"></div>
+  <div class="layer"></div>
+  <div class="layer"></div>
+  <div class="layer"></div>
+  <div class="layer"></div>
+  <div class="layer"></div>
+  <div class="layer"></div>
+  <div class="layer"></div>
+  <div class="layer"></div>
+  <div class="layer"></div>
+  <div class="layer"></div>
+  <div class="layer"></div>
+  <div class="layer"></div>
+  <div class="layer"></div>
+  <div class="layer"></div>
+  <div class="layer"></div>
+  <div class="layer"></div>
+  <div class="layer"></div>
+</div>
+
+
+
+
+
+    <!-- Задний прозрачный фон -->
+    <div onclick="show('none')" id="gray" ></div>
+<div id="window">
+    <!-- Картинка крестика -->
+    <img class="close" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyBF1Ku19D9wceihqJN-th2nnYGmavI2lH-Q&usqp=CAU" alt=""  onclick="show('none')">
+    <div class="form">
+        <h2>Регистрация</h2>
+        <form style=""action="animal world.html" name="f1">
+            <input   type="text" placeholder="Имя" name="name1" class="input">
+            <input type="text" placeholder="Фамилия" name="name2" class="input">
+            <input type="email" placeholder="Емеил" name="email1" class="input">
+            <input type="email" placeholder="Подтвердите адрес Электронной Почты" name="email2" class="input">
+            <input type="password" placeholder="Пароль" name="pass1" class="input">
+            <input type="password" placeholder="Подтвердите пароль" name="pass2" class="input">
+            <input type='tel' placeholder="Мобильный телефон" name="tel" class="input">
+            <input type="radio" name="radio1"> Мужчина <input type="radio" name="radio1" class="radio"> Женщина
+            <input type="submit" value="Регистрация" name="sab" class="input"> Нажимая «Регистрация», вы подтверждаете, что прочитали и согласны с нашими Условиями Пользования и Политикой Конфиденциальности.
+        </form>
+    </div>
+</div>
+ <script>
+//Функция показа
+	function show(state)
+	{
+	document.getElementById('window').style.display = state;	
+	document.getElementById('gray').style.display = state; 		
+	}	
+</script>   
+     
+ <script src="scripi.js"></script>
+
+</body>
+</html>

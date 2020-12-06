@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Подать обьявление</title>
+	<link rel="stylesheet" type="text/css" href="style3.css">
+	<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Texturina:wght@300&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@700&display=swap" rel="stylesheet">
+	
+</head>
+<body>
+	<div class="header">
+	   <div id ="photo2" onmouseover="over(this)" onmouseout="out(this)"><a href="animal world.html"><img id="logo" src="https://static3.bigstockphoto.com/0/2/3/large2/320262565.jpg"></a></div>
+	   <div id = "text1"  onmouseover="over(this)" onmouseout="out(this)"><a id="lp" href="3.html">Подать обьявление </a></div>
+	   <div id = "text2" onmouseover="over(this)" onmouseout="out(this)"><a href="4.html"> Забрать</a> </div>
+	  
+	   <div id = "text4" onmouseover="over(this)" onmouseout="out(this)"><a href="2.html"> Контакты</a> </div>
+	   <div id = "text5" onmouseover="over(this)" onmouseout="out(this)"><a href="1.html"> Карта</a> </div>
+
+	   </div>
+	<div class="pets-create" style="position: relative;border:3px solid white;"><h1 style="text-align: center;font-family: 'Anton', sans-serif;color:white;text-shadow: 2px 2px black;">Добавить объявление о пропаже или находке питомца</h1>
+	
+<div class="pets-form " style="position: relative;">
+<form id="w0" action="/pets/create" method="post" enctype="multipart/form-data">
+<input type="hidden" name="_csrf" value="SGxQSWlvV3cmNCYxAQIyImUcOBEiLQY/EF9pejwVPTEpBSBxDl5hGQ==">
+<div class="error-summary" style="display:none"><h4>Вы не заполнили обязательные поля</h4><ul></ul></div>
+<fieldset style="height: 250px; border:2px solid white;"><legend style="text-align: center;font-family: 'Anton', sans-serif;color:white;text-shadow: 2px 2px black;font-size: 25px;"><b>Основная информация</b></legend>
+<div class="row">
+<div class="col-md-3 col-sm-6 col-xs-12"  >
+<div class="form-group field-pets-lost required" style="text-align: center;" >
+
+<select  style="height: 50px;float: center;font-size: 20px;width: 350px;text-align: center;font-family: 'Anton', sans-serif;color:white;border:2px solid white ; "  id="pets-lost" class="form-control" name="Pets[lost]" aria-required="true">
+<option value="">Что произошло с питомцем?</option>
+<option value="1">Пропал</option>
+<option value="0">Найден</option>
+</select>
+
+
+<select  style="height: 50px;font-size: 20px;width: 350px;font-family: 'Anton', sans-serif;color:white;border:2px solid white ;" id="pets-type_id" class="form-control" name="Pets[type_id]" 
+aria-required="true">
+<option value="">Вид питомца</option>
+<option value="1">Кошка</option>
+<option value="2">Собака</option>
+<option value="3">Другое животное</option>
+</select>
+
+
+<select   style="height: 50px;font-size: 20px;width: 350px;font-family: 'Anton', sans-serif;color:white;border:2px solid white ;" id="pets-gender_id" class="form-control" name="Pets[gender_id]" aria-required="true">
+<option value="">Пол питомца</option>
+<option value="1">Самец</option>
+<option value="2">Самка</option>
+<option value="3">Не определен</option>
+</select>
+<div class="help-block">
+	
+</div>
+</div>
+</div>
+<div class="col-md-3 col-sm-6 col-xs-12">
+<div class="form-group field-pets-phone required"
+style="text-align: center;margin-top: 125px;margin-top: ">
+<input  type="text" id="pets-phone" class="form-control" name="Pets[phone]" maxlength="25" placeholder="Контактный телефон" aria-required="true " style="text-align: center;margin-top: ;border:3px solid green;margin-top: -px;font-family: 'Anton', sans-serif;color:white;border:2px solid white ;font-size:25px;text-shadow: 2px 2px black">
+<div class="help-block">
+	
+</div>
+</div>
+</div>
+<div id="type_name" class="col-md-3 col-sm-6 col-xs-12" style="display:none;">
+<div class="form-group field-pets-type_name">
+
+	
+</div>
+</div>
+</div>
+<div id="breeds_list" class="col-md-3 col-sm-6 col-xs-12" style="display:block;">
+<div class="form-group field-pets-breed_id">
+<div class="kv-plugin-loading loading-pets-breed_id">&nbsp;</div>
+<div class="help-block">
+	
+</div>
+</div>
+
+<div class="col-md-3 col-sm-6 col-xs-12">
+<div class="form-group field-pets-color_id" style="text-align: center;margin-top: -180px;">
+<select id="pets-color_id" class="form-control" name="Pets[color_id]" style="height: 50px;font-size: 20px;width: 250px;margin-left: -700px;font-family: 'Anton', sans-serif;color:white;border:2px solid white ;">
+<option value="">Цвет животного</option><option
+value="13">Бежевый</option><option
+value="3">Белый</option><option
+value="23">Биколор</option><option
+value="22">Ван</option><option
+value="15">Голубой</option><option
+value="14">Дымчатый</option><option
+value="24">Колорпойнт</option><option
+value="12">Коричневый</option><option
+value="16">Лиловый</option><option
+value="21">Мраморный</option><option
+value="26">Не указан</option><option
+value="17">Палевый</option><option
+value="20">Подпалый</option><option
+value="7">Рыже-белый</option><option
+value="8">Рыже-черный</option><option
+value="4">Рыжий</option><option
+value="18">Серебристый</option><option
+value="6">Серо-белый</option><option
+value="1">Серый</option><option
+value="11">Тигровый</option><option
+value="10">Трехцветный</option><option
+value="19">Чепрачный</option><option
+value="25">Черепаховый</option><option
+value="5">Черно-белый</option><option
+value="9">Черно-коричневый</option><option
+value="2">Черный</option>
+
+</select>
+
+
+
+
+
+<div
+class="col-md-2 col-sm-6 col-xs-12" style="; margin-left:px" >
+<div
+class="form-group field-pets-age_years" style=" text-align: center;margin-top: -50px;" >
+<select
+id="pets-age_years" class="form-control" name="Pets[age_years]"style="height: 50px;font-size: 20px;width: 250px;font-family: 'Anton', sans-serif;color:white;border:2px solid white ;">
+<option
+value="">Возраст лет</option><option
+value="0">0</option><option
+value="1">1</option><option
+value="2">2</option><option
+value="3">3</option><option
+value="4">4</option><option
+value="5">5</option><option
+value="6">6</option><option
+value="7">7</option><option
+value="8">8</option><option
+value="9">9</option><option
+value="10">10</option><option
+value="11">11</option><option
+value="12">12</option><option
+value="13">13</option><option
+value="14">14</option><option
+value="15">15</option><option
+value="16">16</option><option
+value="17">17</option><option
+value="18">18</option><option
+value="19">19</option><option
+value="20">20</option>
+
+</select>
+
+
+</div></div><div
+class="col-md-2 col-sm-6 col-xs-12"><div
+class="form-group field-pets-age_months" style="text-align: center;margin-top: -50px; ">
+<select
+id="pets-age_months" class="form-control" name="Pets[age_months]" style="height: 50px;font-size: 20px;width: 250px;margin-left: 700px;font-family: 'Anton', sans-serif;color:white;border:2px solid white ;"><option
+value="">Возраст мес.</option><option
+value="0">0</option><option
+value="1">1</option><option
+value="2">2</option><option
+value="3">3</option><option
+value="4">4</option><option
+value="5">5</option><option
+value="6">6</option><option
+value="7">7</option><option
+value="8">8</option><option
+value="9">9</option><option
+value="10">10</option><option
+value="11">11</option><option
+value="12">12</option>
+</select>
+</div>
+</div>
+</fieldset>
+<div
+class="help-block"></div></div></div></div></fieldset><fieldset style="border:2px solid white "><legend style="text-align: center;font-family: 'Anton', sans-serif;color:white;text-shadow: 2px 2px black;font-size: 15px;"><b>Подробности</b> <span>(обстоятельства пропажи/находки, отличительные черты внешнего вида и характера питомца)</span></legend><div
+class="row"><div
+class="col-md-12"><div
+class="form-group field-pets-text required"><textarea style="text-align: center;width: 1000px;margin-left: 150px;border:2px solid white;color: white;text-shadow: 2px 2px black ;font-size: 25px;" id="pets-text" class="form-control" name="Pets[text]" rows="4" placeholder="Подробности" aria-required="true"></textarea>
+<div
+class="help-block"></div></div></div></div></fieldset><hr><fieldset style="border:2px solid white;"><legend style="text-align: center;font-family: 'Anton', sans-serif;color:white;text-shadow: 2px 2px black;font-size: 25px;"><b>Место пропажи/находки</b> </legend><div
+class="row"><div
+class="col-md-4 col-sm-6 col-xs-12"><div
+class="form-group field-pets-city_id required">
+<select style="margin-left: 575px;height: 50px;border:2px solid white;font-size: 15px;color: white;" 
+id="pets-city_id" class="form-control" name="Pets[city_id]" aria-required="true"><option 
+value="" >Выберите ваш город</option><option
+value="94">Аксу</option><option
+value="27">Актау</option><option
+value="15">Актобе</option><option
+value="8">Алматы</option><option
+value="1">Астана</option><option
+value="26">Атырау</option><option
+value="90">Байконур</option><option
+value="89">Балхаш</option><option
+value="28">Жезказган</option><option
+value="93">Житикара</option><option
+value="91">Зыряновск</option><option
+value="9">Караганда</option><option
+value="83">Каскелен</option><option
+value="14">Кокшетау</option><option
+value="16">Костанай</option><option
+value="29">Кызылорда</option><option
+value="21">Павлодар</option><option
+value="22">Петропавловск</option><option
+value="13">Приозерск</option><option
+value="88">Риддер</option><option
+value="73">Рудный</option><option
+value="40">Сатпаев</option><option
+value="25">Семей</option><option
+value="92">Степногорск</option><option
+value="32">Талдыкорган</option><option
+value="31">Тараз</option><option
+value="12">Темиртау</option><option
+value="11">Уральск</option><option
+value="10">Усть-Каменогорск</option><option
+value="30">Шымкент</option><option
+value="87">Экибастуз</option>
+</select><div
+<br></div></div></fieldset><hr><fieldset style="border:2px solid white"><legend style="text-align: center;font-family: 'Anton', sans-serif;color:white;text-shadow: 2px 2px black;font-size: 15px;"><b>Добавить фотографии питомца</b> <span>(выберите основное фото и несколько дополнительных)</span></legend><div
+class="row"><div
+class="col-md-4 col-sm-6 col-xs-12"><div
+class="form-group field-pets-main_photo">
+<label
+class="control-label" for="pets-main_photo" style="color: white;text-shadow: 1px 1px black">Основное фото</label>
+<input
+type="hidden" name="Pets[main_photo]" value=""><input
+type="file" id="pets-main_photo" class="file-loading" name="Pets[main_photo]" accept="image/*" data-krajee-fileinput="fileinput_84532533">
+
+<div
+class="help-block"></div></div></div><div
+class="col-md-8 col-sm-6 col-xs-12"><div
+class="form-group field-pets-additional_photos">
+<label
+class="control-label" for="pets-additional_photos" style="color: white;text-shadow: 1px 1px black" >Дополнительные фотографии(макс - 5)</label>
+<input
+type="hidden" name="Pets[additional_photos][]" value=""><input
+type="file" id="pets-additional_photos" class="file-loading" name="Pets[additional_photos][]" multiple accept="image/*" data-krajee-fileinput="fileinput_c1f2e9ff">
+<div
+class="help-block"></div></div></div></div>
+<br><center>
+<button
+type="submit" class="btn btn-lg btn-success" style="font-size: 20px;color: white;border:2px solid white;text-shadow: 2px 2px black">Отправить объявление</button></center></form><br></div></div></div><center>
+</center>
+</fieldset>
+
+<script src="scripi3.js"></script>
+
+
+</body>
+</html>

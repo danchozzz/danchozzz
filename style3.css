@@ -1,0 +1,68 @@
+*{
+	margin:0 ;
+	min-width: : 1400px;
+  
+  
+
+  padding: 0;
+   background: transparent;
+   position: relative;
+  
+  
+  
+}
+
+body{
+	position: relative;
+	background:url(https://ca-times.brightspotcdn.com/dims4/default/0067f1c/2147483647/strip/true/crop/2048x1365+0+0/resize/1486x990!/quality/90/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F38%2F36%2F295354aa03887af01b2a82f7dc44%2Flat-orrcats-la0044702828-20161118);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+	
+}
+
+
+
+.header{
+	position: relative; 
+	height: 75px;
+	display: flex;
+	justify-content: space-between;
+	vertical-align: middle;
+	padding: 27px 100px 0px 100px;
+	font-size: 22px;
+	text-decoration: none;
+	color:white;
+  margin-top: -20px;
+  font-family: 'Noto Serif', serif;
+
+   
+}
+#text1{
+	text-shadow: 2px 2px white;
+
+
+}
+#text2{
+	text-shadow: 2px 2px white;
+
+
+}
+
+#text4{
+	text-shadow: 2px 2px white;
+}
+#text5{
+	text-shadow: 2px 2px white;
+}
+#text6{
+  text-shadow: 2px 2px white;
+}
+
+
+#logo{
+	width: 130px;
+	height: 80px;
+	border-radius: 55%;
+	margin-top: -23px;
+	border:6px solid #708090;
+}
